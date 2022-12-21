@@ -73,8 +73,9 @@ npx create-react-app .
 npm init @eslint/config  
 npm install react-router-dom
 npm install -g sass
-npm install --save firebase
 npm install react-bootstrap
 npm install uuid
+npm install firebase
+
 
 
