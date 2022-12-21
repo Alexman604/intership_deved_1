@@ -1,0 +1,108 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+
+.app {
+    background-color: #839695;
+    min-height: 100vh;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #112B3E;
+    color: white;
+    justify-content: flex-start;
+
+    a {
+        color: white;
+    }
+
+    :focus {
+        color: white;
+    }
+
+    :hover {
+        color: wheat;
+        text-decoration: dotted;
+    }
+}
+
+
+.wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+    padding-top: 80px;
+}
+
+.article-item {
+    width: 420px;
+    height: 500px;
+    margin: 1rem;
+    background-color: #112B3E;
+    color: white;
+
+    img {
+        width: 100%;
+        height: 300px;
+        overflow: hidden
+    }
+
+    p {
+        padding: 0.5rem;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}
+
+.article-item:hover {
+    box-shadow: #112B3E 3px 20px 25px -5px, #112B3E 3px 10px 10px -5px;
+
+}
+
+.article-view {
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    width: 80%;
+
+    h3 {
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 100%;
+        margin: 5px 0 25px 0;
+    }
+
+    p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    div {
+        background-color: white;
+        padding: 18px 19px 43px 35px;
+        font-size: 14px;
+        font-weight: 500;
+
+        h5 {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
