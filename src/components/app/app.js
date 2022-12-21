@@ -4,6 +4,8 @@ import { Route, Routes } from "react-router-dom";
 import Articles from '../index_page/articles';
 import ArticleView from '../article_view/article_view';
 
+
+
 const App = () => {
 
     return (
